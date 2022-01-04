@@ -1,0 +1,53 @@
+[0;1;37m────────────────────────────────[0m
+[0;1;36m指令格式 : 	perform [<武功种类>]<招式名称> [<施用对象>][0m
+[0;1;37m────────────────────────────────[0m   
+
+风云中的武功可归为四大类：（分别对应的使用命令为）
+（1）传统武技（如神机刀法、棋道心法）：（perform/exert）
+（2）法术：（如兴国禅寺的八识神通）：(conjure)
+（3) 咒术：（如三清的三清道术、大昭的观音六字明咒）：(cast)
+（4）降头术：（如帝王谷的通天降，狼山的血狼咒）：（curse）
+
+所谓传统武技多指拳脚、剑法、刀法等，这些功夫通常有一些特
+殊的攻击招式，可以用这个指令来使用。
+
+先用 enable 指令指定你所使用的武功，比如说
+	enable sword diesword 后，就能使用其招式“彩蝶狂舞”
+	perform caidiekuangwu
+
+不属於拳脚跟武器技能的武功必须指明所用的基本武功，例如
+	perform iron-cloth.daoqiangburu
+	perform dodge.yexuechuji
+	perform herb.canyunbi
+
+而拳脚功夫或者兵器功夫则可以省略掉基本武功这一项，例如
+	perform duangechangmeng
+	perform tianxiawugou
+
+在通常情况下，在有多个对手时，许多特殊招式可以制定对手，
+比如说你在与 oldman, waiter, badguy 三个人厮杀，
+使用
+	perform dodge.luoyeqiufeng waiter
+就可以将“落叶秋风”的特技使用到waiter上。	
+
+在战斗中使用特殊技能有2%的可能会失败，造成自己忙乱，修习某些
+特定的武功可以降低此概率。
+
+使用一次特殊招式至少需要消耗50点内力。
+（等级51以下可免去此要求）
+
+注:
+	风云中有的武功需要两人或多人才能使出，其格式为：
+perform [<武功种类>]<招式名称> [<施用对象>] with 同伴名字
+
+比如说，少林的莲心刀法，其使用的格式为：
+
+perform yipianlianxin 敌人名字 with 同伴名字
+perform yipianlianxin with 同伴名字
+
+同理，铁雪的刀剑若梦，其使用的格式为：
+
+perform daojianruomeng 敌人名字 with 同伴名字
+perform daojianruomeng with 同伴名字
+
+[0;1;37m────────────────────────────────[0m   

@@ -1,0 +1,11 @@
+北龙斩的两个特技有很大的随机性。
+	
+L150『分天斩』（fentianzhan）
+单击，自我忙乱2轮
+额外攻击力=random(random(悲龙斩等级*6))+1
+额外伤害力=random(random(random(悲龙斩等级*12)))+1
+
+L200『煮鹤焚琴』（fenqin）
+单击，自我忙乱2轮
+额外攻击力=random(random(random(random(悲龙斩等级*40))))+1
+额外伤害力=random(random(random(random(random(悲龙斩等级*80)))))+1

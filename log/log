@@ -1,0 +1,24 @@
+
+ err: "Modulus by zero.
+" 
+ prg: "/d/fy/clubpoem.c" 
+ curobj: "/d/fy/clubpoem"
+ line:314
+ stack:({ /* #1, size: 13 */
+  "d/fy/clubpoem",
+  "d/fy/clubpoem",
+  "d/fy/clubpoem",
+  "secure/master",
+  "d/fy/npc/tatoo#1380",
+  "d/fy/npc/tatoo#1380",
+  "cmds/std/go",
+  "d/fy/npc/tatoo#1380",
+  "d/fy/npc/tatoo#1380",
+  "d/fy/npc/tatoo#1380",
+  "secure/simul_efun",
+  "d/fy/npc/tatoo#1380",
+  "d/fy/npc/tatoo#1380"
+})
+ culprit:/d/fy/npc/tatoo#1380 
+  caught: 0
+  warn:0

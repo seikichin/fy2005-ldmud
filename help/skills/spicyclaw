@@ -1,0 +1,8 @@
+该技能在招架成功时会令对方武器的伤害力降低1
+	
+『油流麻香式』
+（extrahit1）（extrahit2）（extrahit3）（extrahit4）（extrahit5）
+连续普通攻击，没有伤害、攻击等加成，有固定色彩
+每两个不同extrahit间需有1秒间隔，
+相同extrahit间需有15秒间隔
+
